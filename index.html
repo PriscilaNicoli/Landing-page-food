@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/landingPageFood.css">
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing Page Food</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> Food</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+            <button class="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+                <p class="description">
+                    Pratos preparados com ingredientes selecionados e muito carinho, entregues fresquinhos para você.
+                </p>
+
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+                    <a href="tel:+55984168814" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (55) 98416-8814
+                    </a>
+                </div>
+
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="imagens/hero-prato.png" alt="Pratos culinários">
+
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <!-- Prato 1 -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/dish.png" class="dish-image" alt="Pokebowl Oriental">
+
+                    <h3 class="dish-title">
+                        Pokebowl Oriental
+                    </h3>
+                    <span class="dish-description">
+                        Tigela colorida com camarão, frango crocante, legumes frescos e temperos orientais.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-shopping-basket"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Prato 2 -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/dish2.png" class="dish-image" alt="Sanduíche Grelhado">
+
+                    <h3 class="dish-title">
+                        Sanduíche Grelhado
+                    </h3>
+                    <span class="dish-description">
+                        Pão tostado recheado com queijo derretido, presunto e salada fresca.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(420+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$18,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-shopping-basket"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Prato 3 -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/dish3.png" class="dish-image" alt="Smoothie Bowl Verde">
+
+                    <h3 class="dish-title">
+                        Smoothie Bowl Verde
+                    </h3>
+                    <span class="dish-description">
+                        Creme de frutas com kiwi, morango, sementes e lascas de coco.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(380+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$22,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-shopping-basket"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Prato 4 -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="imagens/dish4.png" class="dish-image" alt="Yakissoba de Camarão">
+
+                    <h3 class="dish-title">
+                        Yakissoba de Camarão
+                    </h3>
+                    <span class="dish-description">
+                        Macarrão oriental salteado com camarões, legumes frescos e molho especial.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(600+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$32,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-shopping-basket"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="imagens/chef.png" class="testimonial_chef" alt="chefe">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Avaliações
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="imagens/avatar.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content">
+                            <p>
+                                Gabriela Machado
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Atendimento excelente e comida deliciosa! Voltarei com certeza.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Feedback 2 -->
+                    <div class="feedback">
+                        <img src="imagens/avatar.png" class="feedback-avatar" alt="Avatar João Pereira">
+                        <div class="feedback-content">
+                            <p>
+                                Maria Denise
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </span>
+                            </p>
+                            <p>
+                                O prato estava muito saboroso, só achei que demorou um pouco para chegar.
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="btn-default">
+                        Ver mais avaliações
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <img src="imagens/wave.svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Priscila Batista
+            </span>
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scriptFood.js"></script>
+</body>
+
+</html>
